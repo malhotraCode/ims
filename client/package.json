@@ -1,0 +1,43 @@
+{
+  "name": "ims",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "*",
+    "@emotion/styled": "*",
+    "@mui/material": "*",
+    "@mui/x-data-grid": "*",
+    "@reduxjs/toolkit": "*",
+    "axios": "*",
+    "dotenv": "*",
+    "lucide-react": "*",
+    "next": "*",
+    "numeral": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-redux": "*",
+    "recharts": "*",
+    "redux-persist": "*",
+    "uuid": "*"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.7",
+    "@types/node": "*",
+    "@types/numeral": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@types/uuid": "*",
+    "eslint": "*",
+    "eslint-config-next": "*",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7",
+    "tw-colors": "*",
+    "typescript": "*"
+  }
+}
