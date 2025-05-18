@@ -36,7 +36,7 @@ const StatCard = ({ title, primaryIcon, details, dateRange }: StatCardProps) => 
 
       {/* BODY */}
       <div className="flex mb-6 items-center justify-around gap-4 px-5">
-        <div className="rounded-full p-5 bg-blue-50 border-sky-300 border-[1px]">{primaryIcon}</div>
+        <div className="rounded-full p-5 bg-blue-50 border-sky-300 border">{primaryIcon}</div>
         <div className="flex-1">
           {details.map((detail, index) => (
             <React.Fragment key={index}>
