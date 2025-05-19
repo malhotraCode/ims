@@ -54,7 +54,7 @@ const Sidebar = () => {
       >
         <Image
           src="https://s3-ims-1.s3.ap-south-1.amazonaws.com/logo.png"
-          alt="edstock-logo"
+          alt="ims-logo"
           width={27}
           height={27}
           className="rounded w-8"
