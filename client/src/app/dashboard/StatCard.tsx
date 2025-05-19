@@ -10,7 +10,7 @@ type StatDetail = {
 
 type StatCardProps = {
   title: string;
-  primaryIcon: JSX.Element;
+  primaryIcon: React.JSX.Element;
   details: StatDetail[];
   dateRange: string;
 };
